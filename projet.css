@@ -10,6 +10,7 @@ img {
 }
 
 .item {
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -44,8 +45,10 @@ button {
     background-color :#458FFF;
     color : white;
     border-radius: 3px;
-    border-color : transparent; 
+    border-color : transparent;
 }
+
+
 
 
 
