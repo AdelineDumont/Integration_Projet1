@@ -1,0 +1,71 @@
+body {
+    background-color:#DDDDDD;
+}
+
+
+img {
+    width: 300px;
+    height: auto;
+
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    background: white;
+    width: 300px;
+    height: auto;
+    padding: 16px;
+    margin: 16px;
+    border-radius: 20px;
+    box-shadow: 4px 3px 10px 0px rgba(119, 119, 119, 0.72);
+
+}
+
+#news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+h3 {
+    font-size: 18px;
+    font-family: Verdana, sans-serif;
+}
+
+p {
+    font-size: 15px;
+    font-family: Verdana, sans-serif;
+}
+
+button {
+    background-color :#458FFF;
+    color : white;
+    border-radius: 3px;
+    border-color : transparent; 
+}
+
+
+
+/*-----------RESPONSIVE------------
+
+
+@media only screen and (max-width: 768px) {
+    .item {
+            width: 200px;
+            }
+    img {
+        width : 200px;
+    }
+    h3 {
+        font-size : 14px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+}
+
+*/
